@@ -6,7 +6,7 @@ Bu bir intihar mekubudur 😊
 
  Şaka şaka intoduction to machine learning dersine çalışırken aldığım notlar. Dersin özeti, hap bilgi olarak düşünebilirsiniz. 
 
- ![Alt text](<Screenshot 2024-05-22 at 03.18.43.png>)
+![Alt text](<Screenshot 2024-05-22 at 07.45.58.png>)
 
 Hocam makine öğrenmesi dediğimiz zaman. Makielere öğretmekten bahsediyoroz. Mutfağınızda hangi makine varsa blender olur mikro dalga olur alın karşınıza başlayan hayatı öğretmeye 😬 yaptığım son iğrenç espriydi. Ciddiyetle anlatıyorum hemen 
 
@@ -22,4 +22,5 @@ Unsupervised Learning
 
 Geldik zor kısma. Hocam yukarıdakinden mevzuya biraz uyandık zaten supervised de labellı datayı training date set olark kullanıyorsak unsupervised learning de labelsız veriyi once sınıflandırıp sonr atraining set olarak kullanıcaz. Yani labellama-sınıflandırma kısmıda makineye kalıcak. Gözetimsiz öğrenmeyi karmaşık yapan kısımda aslında eğitim setnde etiketi olmayan veriyi nasıl sınıflandıracağımız. iIleride bunun üzerinde bol bol durucaz. 
 
-![Alt text](<Screenshot 2024-05-22 at 07.44.25.png>)
+
+![Alt text](<Screenshot 2024-05-22 at 07.46.24.png>)
