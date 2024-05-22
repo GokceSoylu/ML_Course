@@ -22,3 +22,4 @@ Unsupervised Learning
 
 Geldik zor kısma. Hocam yukarıdakinden mevzuya biraz uyandık zaten supervised de labellı datayı training date set olark kullanıyorsak unsupervised learning de labelsız veriyi once sınıflandırıp sonr atraining set olarak kullanıcaz. Yani labellama-sınıflandırma kısmıda makineye kalıcak. Gözetimsiz öğrenmeyi karmaşık yapan kısımda aslında eğitim setnde etiketi olmayan veriyi nasıl sınıflandıracağımız. iIleride bunun üzerinde bol bol durucaz. 
 
+![Alt text](<Screenshot 2024-05-22 at 07.44.25.png>)
