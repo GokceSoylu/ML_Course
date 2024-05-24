@@ -45,12 +45,12 @@ Sınıflandırma ise süreksiz değerler bakar e-mail spam yada değil. Bu cisim
 
 Böyle başlık mı olur? Hocam ilerde üzerinde bol bo duracağımız ml’de sık karşılalaşılan sorunlara bir üsten göz atalım. Rakibe bi selam verelim gibi 
 
-> Insufficient Quantity of trainin data: yani veri miktarı yetersizliği 
-> Nonrepresentetive data: temsili olmayan veri. Elimizdeki verinin geneli temsil etmesi gerekir. Eğer verimiz çok az olursa gürültü olma ihtimali gürültüden etkilenme ihtimali daha yüksktir. Ancak data nın çok olması olması bizi temsil sorunundan direkt kurtarmak eğer örnekleme metodund ahata varsa yine verimiz yanlı olabilir(samling bias) 
-> Poor qualty data: hocam eğer verimizde yanlış ölçüm nedeiyle bol bol error(hata), outliers(aykırı değer), noise(gürültü) varsa bu durumda verimizi temizlememiz gerekir. Bu durumda ya bu özelliği görmezden geliriz ya boş kısımları median(ortanca) ile doldururuz. 
-> Irrelevant features: ilgisiz özellikler. Hocam burada feature selection(özellik seçimi) ve feature extraction(özellik çıkarma) durumları ortaya çıkıyor. Iyi veris seti koy abicim koy bu özelliği de ne bulursan ekle diyerek çıkmaz. Elimizdeki özelliklerden iyi,  gerekli olanları seçmek ve gereksiz olanları çıkarmalıyız. 
-> Overfitting: makinemiz ğitim setine mükemmel uyum sağlar ve çok yüksek oranda doğruluk oranınan sahiptir. Ancak başk averi verildiğinde başarı ciddi şekilde düşer.  
-> Underfitting :overfittingin tersi oluyor. Modelimiz basit kaçarsa olur. Yine doğruluk oranı haliyle düşük olur. Modelimiz başarılı olamaz. Bunun için data ile değil modelimiz ile uğraşmamız gerekir. Daha çok parametreli bir model seçebiliriz yada model üzerindeki kısıtlamaları azaltabiliriz vb. 
+* Insufficient Quantity of trainin data: yani veri miktarı yetersizliği 
+* Nonrepresentetive data: temsili olmayan veri. Elimizdeki verinin geneli temsil etmesi gerekir. Eğer verimiz çok az olursa gürültü olma ihtimali gürültüden etkilenme ihtimali daha yüksktir. Ancak data nın çok olması olması bizi temsil sorunundan direkt kurtarmak eğer örnekleme metodund ahata varsa yine verimiz yanlı olabilir(samling bias) 
+* Poor qualty data: hocam eğer verimizde yanlış ölçüm nedeiyle bol bol error(hata), outliers(aykırı değer), noise(gürültü) varsa bu durumda verimizi temizlememiz gerekir. Bu durumda ya bu özelliği görmezden geliriz ya boş kısımları median(ortanca) ile doldururuz. 
+* Irrelevant features: ilgisiz özellikler. Hocam burada feature selection(özellik seçimi) ve feature extraction(özellik çıkarma) durumları ortaya çıkıyor. Iyi veris seti koy abicim koy bu özelliği de ne bulursan ekle diyerek çıkmaz. Elimizdeki özelliklerden iyi,  gerekli olanları seçmek ve gereksiz olanları çıkarmalıyız. 
+* Overfitting: makinemiz ğitim setine mükemmel uyum sağlar ve çok yüksek oranda doğruluk oranınan sahiptir. Ancak başk averi verildiğinde başarı ciddi şekilde düşer.  
+* Underfitting :overfittingin tersi oluyor. Modelimiz basit kaçarsa olur. Yine doğruluk oranı haliyle düşük olur. Modelimiz başarılı olamaz. Bunun için data ile değil modelimiz ile uğraşmamız gerekir. Daha çok parametreli bir model seçebiliriz yada model üzerindeki kısıtlamaları azaltabiliriz vb. 
  
 * Testing And Validation 
 Hocam veri setinin tamamıyla modeli eğitmessin önce bir kısmını valide (doğrulama) etmek için yani modelini test için ayırırsın. Yanş verinin bir kısmıyla model eğitilir kalan kısmıyla valide edilir.  
