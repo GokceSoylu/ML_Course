@@ -35,7 +35,7 @@ Label : label dediğimiz şey etiket. Biz modeli eğittikten sonra yeni bir veri
 
 Feature : bunlar verinin özellikleri. Sınıflandırmak için kullanılan özellikler yani. Nasıl y yi bulmak için x değikenşne veriden değer etkiliyorsa yanş x lerle işlem yapıp y yi bulıyorsak veride de feture yani özelliklerine bakıp label’ını buluyoruz. Mesela bir yaprağın türünü bulmak istresdiğimizi düşünelim. Yaprağın genilğişi, rengi, kalınlıı feature olur yani X. yaprağın türü de y yani label olur 😊 hadi ek bilgi y değerini bulmak için daah önemli olan feature’lara yani x değerlerine dah yüksek katsayı veririz. Yani modeli eğitirken önemli olan özelliklerin ağırlığını narttırıcaz yani dah yüksek a değeri vericez 😊 
 
-Regresyon ve Classification 
+### Regresyon ve Classification 
 
 Regresyonda sürekli değerlerle ilgilenir. Bu reklema tıklanma ihtimali. Karabükte 10 yıl sonra  bulunacak ev sayısının tahmini vb. 
 
@@ -52,9 +52,9 @@ Böyle başlık mı olur? Hocam ilerde üzerinde bol bo duracağımız ml’de s
 * Overfitting: makinemiz ğitim setine mükemmel uyum sağlar ve çok yüksek oranda doğruluk oranınan sahiptir. Ancak başk averi verildiğinde başarı ciddi şekilde düşer.  
 * Underfitting :overfittingin tersi oluyor. Modelimiz basit kaçarsa olur. Yine doğruluk oranı haliyle düşük olur. Modelimiz başarılı olamaz. Bunun için data ile değil modelimiz ile uğraşmamız gerekir. Daha çok parametreli bir model seçebiliriz yada model üzerindeki kısıtlamaları azaltabiliriz vb. 
  
-* Testing And Validation 
+### Testing And Validation 
 Hocam veri setinin tamamıyla modeli eğitmessin önce bir kısmını valide (doğrulama) etmek için yani modelini test için ayırırsın. Yanş verinin bir kısmıyla model eğitilir kalan kısmıyla valide edilir.  
  
-* Hyperparameter Tuning 
+### Hyperparameter Tuning 
 --bu kısım daha sonra eklenecektir-- 
  
